@@ -1,0 +1,245 @@
+# ============================================
+# OS generated files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ============================================
+# Node.js / NPM
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.npm
+.eslintcache
+
+# ============================================
+# Environment Variables (CRITICAL - NEVER COMMIT)
+# ============================================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+.env.example  # Only commit .env.example, not .env
+
+# ============================================
+# Backend specific
+# ============================================
+server/node_modules/
+server/.env
+server/.env.local
+server/package-lock.json
+server/yarn.lock
+
+# Server logs
+server/logs/
+server/*.log
+server/.logs/
+
+# Uploads and Reports
+server/uploads/
+server/reports/
+server/previews/
+server/temp/
+
+# Puppeteer / Chromium
+server/.chromium/
+server/headless_shell/
+
+# ============================================
+# Google Service Account Keys (CRITICAL - NEVER COMMIT)
+# ============================================
+*.json
+service-account*.json
+*.key.json
+server/config/service-account-key.json
+server/service-account.json
+server/credentials.json
+server/token.json
+server/.gcloud/
+
+# ============================================
+# Frontend / React specific
+# ============================================
+client/node_modules/
+client/.env
+client/.env.local
+client/build/
+client/dist/
+client/.next/
+client/out/
+client/package-lock.json
+client/yarn.lock
+
+# React build files
+client/build/
+client/static/
+client/*.br
+client/*.gz
+
+# ============================================
+# IDE / Editor files
+# ============================================
+.vscode/
+.idea/
+*.sublime-*
+.project
+.classpath
+.settings/
+*.iml
+*.swp
+*.swo
+*~
+.~*
+~$*
+
+# ============================================
+# Debug and logs
+# ============================================
+debug.log
+debug/
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+.cache/
+
+# ============================================
+# Testing
+# ============================================
+coverage/
+.nyc_output/
+*.test.js
+*.spec.js
+jest.config.js
+__tests__/
+__mocks__/
+.vscode/launch.json
+
+# ============================================
+# Docker
+# ============================================
+Dockerfile
+docker-compose.yml
+.docker/
+docker/
+
+# ============================================
+# MongoDB
+# ============================================
+dump/
+mongodb-dump/
+*.bson
+*.metadata.json
+
+# ============================================
+# Backup files
+# ============================================
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+*.temp
+
+# ============================================
+# Performance / Profiling
+# ============================================
+cpuprofile
+heapsnapshot
+heapdump
+*.cpuprofile
+*.heapsnapshot
+
+# ============================================
+# Miscellaneous
+# ============================================
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.pem
+*.cert
+*.key
+.secrets
+
+# ============================================
+# Project specific
+# ============================================
+# Ignore PDF reports (keep one sample if needed)
+*.pdf
+!sample-report.pdf
+
+# Ignore email previews
+previews/
+*.html
+
+# Ignore test output
+test-output/
+test-results/
+
+# Ignore database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignore Redis dump
+dump.rdb
+
+# Ignore Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# ============================================
+# Security sensitive files
+# ============================================
+*.p12
+*.pfx
+*.jks
+secrets.txt
+private.key
+public.key
+.htpasswd
+.htaccess
+
+# ============================================
+# Cloud services
+# ============================================
+.aws/
+.gcloud/
+.azure/
+.heroku/
+.netlify/
+.vercel/
+.elasticbeanstalk/
+
+# ============================================
+# API keys and secrets (just in case)
+# ============================================
+*secret*
+*key*
+*api_key*
+*apikey*
+*credential*
+*password*
+*private*
