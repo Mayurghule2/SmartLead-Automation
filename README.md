@@ -1,10 +1,13 @@
 🚀 SmartLead Automation
 
 AI-powered lead intelligence platform that automates lead capture, company enrichment, professional PDF generation, and email delivery in a single workflow.
+
 ![Version](https://img.shields.io/badge/version-2.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Node](https://img.shields.io/badge/node-18%2B-brightgreen)
 ![Status](https://img.shields.io/badge/status-production%20ready-success)
+
+
 ✨ Overview
 
 SmartLead Automation transforms traditional lead intake into an intelligent automated pipeline. The system captures prospect details, enriches company information using AI, generates professional business intelligence reports, and delivers them directly via email.
